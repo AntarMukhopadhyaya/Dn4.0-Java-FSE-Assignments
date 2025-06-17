@@ -1,0 +1,17 @@
+# IntelliJ IDEA specific
+.idea/
+*.iml
+
+# Java class files
+*.class
+
+# Output directories
+/out/
+/target/
+build/
+
+# Logs
+*.log
+
+# OS-specific
+.DS

@@ -26,3 +26,6 @@ Output contains original order and sorted orders using both algorithm.
     - Average Case O(n log n)
     - Worst Case O(n^2)
 
+## When to use which Sorting Algorithm 
+- Bubble Sort: Never use in real world projects as it is very slow, only used for learning purpose.
+- Quick Sort: Use when performance is required and average case works.

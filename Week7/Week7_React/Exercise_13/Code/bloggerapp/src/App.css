@@ -1,0 +1,55 @@
+.App {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 25px;
+  max-width: 1000px;
+  margin: auto;
+  background: #f5f7fa;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.toggles {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.section {
+  background: #fff;
+  padding: 18px 22px;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+}
+
+.card {
+  border: 1px solid #d7dbe0;
+  padding: 10px 14px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #fafbfc;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.banner {
+  background: #e0f7fa;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.info {
+  font-style: italic;
+  color: #555;
+}

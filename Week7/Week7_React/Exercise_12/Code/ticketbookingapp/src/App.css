@@ -1,0 +1,54 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 25px;
+  max-width: 900px;
+  margin: auto;
+  background: #f0f4f9;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.auth-buttons {
+  margin-top: 8px;
+}
+
+.box {
+  background: white;
+  padding: 18px 22px;
+  border-radius: 6px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.flight-list {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.flight-card {
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+  border-radius: 6px;
+  width: 250px;
+  position: relative;
+}
+
+.flight-card button {
+  margin-top: 8px;
+}
+
+.booking-form {
+  margin-top: 20px;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}

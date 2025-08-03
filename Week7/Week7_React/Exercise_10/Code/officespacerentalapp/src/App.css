@@ -1,0 +1,49 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f7f7f7;
+
+  height: 100vh;
+}
+
+header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.office-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.office-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.office-card h2 {
+  margin-top: 0;
+}
+
+.office-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.rent-low {
+  color: red;
+  font-weight: bold;
+}
+
+.rent-high {
+  color: green;
+  font-weight: bold;
+}

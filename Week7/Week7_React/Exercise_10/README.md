@@ -31,3 +31,7 @@ A simple React application that displays a list of office spaces with their deta
     ```bash
     npm start
     ```
+4. **Visit the Site**
+    ```bash
+    http://localhost:3000
+    ```
